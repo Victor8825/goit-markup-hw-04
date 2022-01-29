@@ -33,12 +33,20 @@
         </nav>
         <ul class="header-contacts list">
           <li class="header-contacts-mail">
-            <a class="nav-auth-link link mail" href="mailto:info@devstudio.com"
-              >info@devstudio.com"</a
+            <a class="nav-auth-link link" href="mailto:info@devstudio.com">
+              <svg class="nav-icon" width="16" height="12">
+                <use href="./images/icons-svg/symbol-defs.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="header-contacts-tel">
-            <a class="nav-auth-link link tel" href="tel:++380961111111">+380961111111"</a>
+            <a class="nav-auth-link link" href="tel:++380961111111">
+              <svg class="nav-icon" width="10" height="16">
+                <use href="./images/icons-svg/symbol-defs.svg#icon-tel"></use>
+              </svg>
+              +380961111111</a
+            >
           </li>
         </ul>
       </div>
@@ -55,24 +63,44 @@
           <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="features-list list">
             <li class="features-item">
+              <div class="features-background">
+                <svg class="features-icons" width="70" height="70">
+                  <use href="images/icons-svg/symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="features-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
               <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
             <li class="features-item">
+              <div class="features-background">
+                <svg class="features-icons" width="70" height="70">
+                  <use href="images/icons-svg/symbol-defs.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="features-title">ПУНКТУАЛЬНОСТЬ</h3>
               <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
             <li class="features-item">
+              <div class="features-background">
+                <svg class="features-icons" width="70" height="70">
+                  <use href="images/icons-svg/symbol-defs.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="features-title">ПЛАНИРОВАНИЕ</h3>
               <p class="features-text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
             <li class="features-item">
+              <div class="features-background">
+                <svg class="features-icons" width="70" height="70">
+                  <use href="images/icons-svg/symbol-defs.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="features-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
               <p class="features-text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -334,23 +362,58 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a href="" class="footer-logo logo"><span class="accent">Web</span>Studio</a>
-        <address class="address">
-          <ul class="list">
-            <li class="footer-item">
-              <a class="footer-address link" href="https://goo.gl/maps/13D3cSfwj88NWSxH7"
-                >г.Киев,пр-т Леси Украинки,26</a
-              >
+      <div class="container footer-wrap">
+        <div class="footer-address-cont">
+          <a href="" class="footer-logo logo"><span class="accent">Web</span>Studio</a>
+          <address class="address">
+            <ul class="list">
+              <li class="footer-item">
+                <a class="footer-address link" href="https://goo.gl/maps/13D3cSfwj88NWSxH7"
+                  >г.Киев,пр-т Леси Украинки,26</a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="footer-link link" href="mailto:info@example.com">info@example.com"</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link link" href="tel:+380991111111">+380991111111"</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-socials">
+          <p class="footer-text">присоединяйтесь</p>
+          <ul class="footer-socials-list list">
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons-svg/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
-              <a class="footer-link link" href="mailto:info@example.com">info@example.com"</a>
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons-svg/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
-              <a class="footer-link link" href="tel:+380991111111">+380991111111"</a>
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons-svg/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link">
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons-svg/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
